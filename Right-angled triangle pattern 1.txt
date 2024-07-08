@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   int i,j,size,starts_count,number=1;
+   cin>>size;
+   for(i=1;i<=size;i++){
+       starts_count=i;
+       for(j=1;j<=starts_count;j++){
+       cout<<number<<" ";
+       number++;
+    }
+    cout<<"\n";
+   }
+   
+
+    return 0;
+}

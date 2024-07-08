@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+   int n,i,k,res;
+   cin>>n>>k;
+   for(i=1;i<=k;i++)
+      {
+       res=n*i;
+      
+        cout<<n<< " * " << i <<" = "<<res<<endl;
+      }
+   return 0;
+}
